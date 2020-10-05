@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="navbar">
+        <a href="#home">Home</a>
+        <div class="dropdown">
+            <button class="dropbtn">Menu 
+            <i class="fa fa-caret-down"></i>
+          </button>
+            <div class="dropdown-content">
+                <a href="#Main" target="_top">Main Foods</a>
+                <a href="#Dessert" target="_top">Dessert</a>
+                <a href="#Drinks" target="_top">Drinks and Cocktails</a>
+            </div>
+        </div>
+        <a href="#contact">Contact</a>
+    </div>
+
+    <!-- Slideshow container -->
+    <section id="view">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="container"></div>
+                <img src="meal2.jpg" style="width: 100%;">
+                <div class="text"><i>Enjoy our classical , specially selected Menu</i></div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="container"></div>
+                <img src="dessert2.jpg" style="width: 100%;">
+                <div class="text">Dessert selection</div>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="container"></div>
+                <img src="drinks2.jpg" style="width: 100%;">
+                <div class="text">Drinks and Cocktails</div>
+            </div>
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <script src="slide.js"></script>
+        </div>
+    </section>
+    <section id="boxes">
+        <div class="container">
+            <div class="box">
+                <img src="dining.jpg">
+
+                <h3 id="Main"> Main Food </h3>
+                <ul>
+                    <li><span><em>OX Tail</em></span>
+                        <span>.........$30</span>
+                    </li>
+                    <p>A well-written, appetite inspiring description that aims to inform the information and food deprived consumer</p>
+                    <li><span><em>Slow Cook Fillet Of Pacific Yellowtail</em></span>
+                        <span>.........$25</span>
+                    </li>
+                    <p>Compress Cucumbers, Avocado Mousse, And Garden Celery</p>
+                    <li><span><em>Poke bowl of cured salmon</em></span>
+                        <span>.........$35</span>
+                    </li>
+                    <p>Fresh avocado, pea nudge, pickled ginger, sushi rice pineapple salsa, pickled egg, sesame, honey and soy dressing</p>
+
+                </ul>
+            </div>
+            <div class="box">
+                <img src="dess.jpg">
+                <h3 id="Dessert">Dessert</h3>
+                <ul>
+                    <li><span><em>Trio of crème brûlée</em></span>
+                        <span>.........$20</span>
+                    </li>
+                    <p>Vanilla, Berry and Bar-one crème brulee served with almond tuile</p>
+                    <li><span><em>Ferrero rocher tiramisu</em></span>
+                        <span>.........$22</span>
+                    </li>
+                    <p>Served with chocolate fudge parfait, caramel gel, strawberry gel</p>
+                    <li><span><em>American style baked cheese Cake</em></span>
+                        <span>.........$19</span>
+                    </li>
+                    <p>Served with berry compot and fresh strawberries</p>
+
+                </ul>
+
+            </div>
+            <div class="box">
+                <img src="largetail.jpg">
+                <h3 id="Drinks">Drinks</h3>
+                <ul>
+                    <li><span><em>Wine</em></span>
+                        <span>.........$15</span>
+                    </li>
+                    <p>White: Reisling Chardonnay</p>
+                    <p>Red: Mary Rivers, Pinot Noir, Sonoma Coast</p>
+
+                    <li><span><em>Cocktails</em></span>
+                        <span>.........$19</span>
+                    </li>
+                    <p>Long Island Icetea</p>
+                    <p>Magarita</p>
+                    <p>Bloody Mary</p>
+                    <p>Sex on the beach</p>
+                    <li><span><em>Hot Beverages</em></span>
+                        <span>.........$10</span>
+                    </li>
+                    <p>Coffe</p>
+                    <p>Americano</p>
+                    <p>Cafe Latte</p>
+                    <p>Chai Tea</p>
+
+                </ul>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <p>To make reservations, please contact us</p>
+    </footer>
+    </footer>
+
+</body>
+
+</html>
